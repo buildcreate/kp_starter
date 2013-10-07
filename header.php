@@ -23,6 +23,8 @@
 			// configure legacy, retina, touch requirements @ conditionizr.com
 			conditionizr()
 		}()
+		
+		
 		</script>
 	</head>
 	<body <?php body_class(); ?>>
@@ -45,7 +47,7 @@
 					<!-- nav -->
 					<nav class="nav" role="navigation">
 						<ul class="main-nav"> 
-							<?php slim_nav('theme_location=header-menu'); ?> 
+							<?php wp_nav_menu('theme_location=header-menu&container=false&items_wrap=%3$s') ?> 
 						</ul> 
 					</nav>
 					<!-- /nav -->
