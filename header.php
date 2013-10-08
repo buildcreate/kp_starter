@@ -23,6 +23,8 @@
 			// configure legacy, retina, touch requirements @ conditionizr.com
 			conditionizr()
 		}()
+		
+		
 		</script>
 	</head>
 	<body <?php body_class(); ?>>

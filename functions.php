@@ -62,7 +62,7 @@ function slim_nav()
 {
 	wp_nav_menu(
 	array(
-		'theme_location'  => 'header-menu',
+		'theme_location'  => '',
 		'menu'            => '', 
 		'container'       => false, 
 		'container_class' => 'menu-{menu slug}-container', 
