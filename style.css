@@ -32,6 +32,7 @@ body 						{ font:300 1em/1.4 'helveticaneue', Helvetica, Arial, sans-serif; col
 .clear:before, .clear:after 	{ content:' '; display:table; } 
 .clear:after 				{ clear:both; } 
 .clear 						{ *zoom:1; } 
+.clearer					{ clear: both; height: 0; line-height: 0; display: block; }
 img 							{ max-width:100%; vertical-align:bottom; } 
 a							{ color:#444; text-decoration:none; } 
 a:hover 						{ color:#444; } 
@@ -44,11 +45,14 @@ input:focus 					{ outline:0; border:1px solid #04A4CC; }
     STRUCTURE
 \*------------------------------------*/
 
-/* wrapper */
+/* wrapper */ 
 .wrapper		{ max-width:1280px; width:95%; margin:0 auto; position:relative; } 
 
 /* Header */
-
+.logo			{ float: left; width: 30%; }
+.header			{ height: 100px; line-height: 100px; }
+.main-nav		{ width: 70%; text-align: right; float: right;}
+.main-nav li 		{ display: inline; padding-left: 10%; }
 
 /*------------------------------------*\
     PAGES
