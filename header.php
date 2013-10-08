@@ -47,7 +47,7 @@
 					<!-- nav -->
 					<nav class="nav" role="navigation">
 						<ul class="main-nav"> 
-							<?php wp_nav_menu('theme_location=header-menu&container=false&items_wrap=%3$s') ?> 
+							<?php slim_nav('theme_location=header-menu'); ?> 
 						</ul> 
 					</nav>
 					<!-- /nav -->
